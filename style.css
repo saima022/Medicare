@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0 12px 0;
+    border: 1px solid rgb(223, 223, 223);
+
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-list li {
+    padding: 0 10px;
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+
+
+}
+
+.nav-logo img {
+    height: 55px;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-logo-text {
+    text-align: center;
+    line-height: 25px;
+
+}
+
+.nav-btn button {
+    padding: 10px 20px;
+    background-color: #1A5AFF;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    gap: 20px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+.banner1 {
+    background-image: url(banner1.png);
+    margin-top: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.banner-section1,
+.banner2-section1 {
+    padding: 80px 80px 30px 100px;
+
+}
+
+.banner1 h1 {
+
+
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.banner1 p {
+    width: 280px;
+    margin: 0;
+    padding-left: 5px;
+    padding-bottom: 50px;
+    text-align: justify;
+
+}
+
+.banner-section1 button {
+    margin-left: 5px;
+    padding: 10px 15px;
+    display: flex;
+    gap: 20px;
+    background-color: #1A5AFF;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    box-shadow: 2px 2px 3px 3px gainsboro;
+}
+
+.banner2 {
+    background-image: url(banner2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.banner2 p {
+    width: 350px;
+    margin: 0;
+    padding-left: 5px;
+    padding-bottom: 50px;
+    text-align: justify;
+
+}
+
+.banner2-section2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 80px 100px 30px 0;
+}
+
+.banner2-section2 button {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    justify-content: center;
+    align-items: center;
+    /* gap: 20px; */
+    padding: 18px 20px;
+    background-color: #1A5AFF;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+
+
+}
+
+.footer-section {
+    padding: 15px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-div1 {
+    width: 40%;
+    padding-top: 40px;
+}
+
+.footer-div2 {
+    width: 35%;
+}
+
+.input-field {
+    width: 100%;
+    margin-bottom: 10px;
+    border: none;
+    background-color: #E7E7E7;
+    border-radius: 3px;
+    padding: 10px;
+
+    text-align: start;
+}
+
+.footer-div2 button {
+    padding: 10px 25px;
+    background-color: #1A5AFF;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+}
